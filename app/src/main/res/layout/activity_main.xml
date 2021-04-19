@@ -20,10 +20,12 @@
         android:layout_marginTop="10dp">
         <TextView
             style="@style/TextView_Head"
-            android:text="可用分辨率："/>
+            android:text="可用分辨率："
+            android:textColor="@color/red"/>
         <TextView
             android:id="@+id/tv_size"
-            style="@style/TextView_Content" />
+            style="@style/TextView_Content"
+            android:textColor="@color/red"/>
     </TableRow>
     <TableRow
         android:layout_marginTop="10dp">
