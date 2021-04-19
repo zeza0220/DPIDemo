@@ -40,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
 
         TextView tvRealSize=(TextView) findViewById(R.id.tv_real_size);
         Point point_fact = new Point();
+        windowManager.getDefaultDisplay().getRealSize(point_fact);
         tvRealSize.setText("width:"+point_fact.x+"\n" +
                 "height:"+point_fact.y);
 
